@@ -11,15 +11,13 @@ pages:
       id: first_page
       name: Welcome
       content: Welcome to webMUSHRA!       
-    - type: mushra
+    - type: paired_comparison
       id: trial1
-      name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+      name: Remix Slider
+      content: Adust the slider to mix the two signals
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/mono_ref.wav
-      createAnchor35: true
-      createAnchor70: true
       stimuli:
           C1: configs/resources/audio/mono_c1.wav
           C2: configs/resources/audio/mono_c2.wav
